@@ -1,0 +1,104 @@
+* {
+    font-family: "Inter", sans-serif;
+    
+}
+body{
+    margin: 0px;
+}
+
+#menuInicial {
+    background-color: #303030;
+    color: #FFFFFF;
+    padding: 100px;
+}
+
+#texto-menuInicial {
+    margin-top: -10px;
+}
+
+#informacoes {
+    align-content: center;
+    align-items: center;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    padding: 25px;
+}
+
+.texto-informacoes {
+    margin-top: -20px;
+}
+
+#sessaoImage {
+    align-content: center;
+    align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#image {
+    width: 75%;
+}
+
+#formulario {
+    align-items: center;
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+#titulo-formulario {
+    color: #FFFFFF;
+    padding: 75px 0px 30px 0px;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 7px;
+    border: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    height: 75px;
+    margin: 25px;
+    padding-left: 15px;
+    width: 500px;
+}
+
+input::placeholder{
+    font-weight: bolder;
+    color: #0000004D;
+}
+
+button {
+    background-color: #C07212;
+    border-radius: 7px;
+    border: none;
+    color: #FFFFFF    ;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    height: 75px;
+    margin: 40px 0px 25px 0px;
+    padding-left: 15px;
+    width: 300px;
+}
+
+button:hover {
+    font-weight: bolder;
+    background-color: #f69219;
+    color: #fff;
+    box-shadow: #694009 0px 15px 20px 0px;
+    transform: translateY(-10px);
+    transition: 1s;
+}
