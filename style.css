@@ -12,8 +12,24 @@ body{
     padding: 100px;
 }
 
+#titulo-menuInicial {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+
+}
+
 #texto-menuInicial {
-    margin-top: -10px;
+    margin-top: -25px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
 }
 
 #informacoes {
@@ -27,8 +43,15 @@ body{
     padding: 25px;
 }
 
+#titulo-informacoes {
+    font-size: 40px;
+    font-weight: 600;
+}
+
 .texto-informacoes {
     margin-top: -20px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 #sessaoImage {
@@ -42,8 +65,25 @@ body{
     margin-bottom: 50px;
 }
 
+#titulo-sessaoImage {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#texto-sessaoImage {
+    font-size: 24px;
+    font-weight: 300
+}
+
 #image {
-    width: 75%;
+    width: 510px;
+    height: 605px;
+    top: 781px;
+    left: 876px;
+    gap: 0px;
+    border-radius: 30px 0px 0px 0px;
+    opacity: 0px;
+    
 }
 
 #formulario {
@@ -57,6 +97,8 @@ body{
 #titulo-formulario {
     color: #FFFFFF;
     padding: 75px 0px 30px 0px;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 form {
@@ -95,10 +137,11 @@ button {
 }
 
 button:hover {
+    cursor: pointer;
     font-weight: bolder;
     background-color: #f69219;
     color: #fff;
     box-shadow: #694009 0px 15px 20px 0px;
     transform: translateY(-10px);
-    transition: 1s;
+    transition: 0.5s;
 }
